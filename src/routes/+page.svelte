@@ -19,8 +19,8 @@
     images: [
       {
         url: 'https://cdn.discordapp.com/attachments/1063591220028383252/1086376403810926613/Slide_16_9_-_1.png',
-        width: 1920,
-        height: 1080,
+        width: 800,
+        height: 600,
         alt: 'manifest.me preview image'
       },
     ],
