@@ -19,7 +19,7 @@
     description: 'A simple app to help you manifest your desires',
     images: [
       {
-        url: 'https://cdn.discordapp.com/attachments/1063591220028383252/1086376403810926613/Slide_16_9_-_1.png',
+        url: 'https://cdn.discordapp.com/attachments/1063591220028383252/1086389074937532536/ADasdas.jpg',
         width: 800,
         height: 600,
         alt: 'manifest.me preview image'
@@ -27,12 +27,12 @@
     ],
   }}
   twitter={{
-    handle: '@handle',
-    site: '@site',
+    handle: '@HorridWeasell',
+    site: '@https://manifest-me.vercel.app/',
     cardType: 'summary_large_image',
     title: 'Manifest.me',
     description: 'A simple app to help you manifest your desires',
-    image: 'https://cdn.discordapp.com/attachments/1063591220028383252/1086376403810926613/Slide_16_9_-_1.png',
+    image: 'https://cdn.discordapp.com/attachments/1063591220028383252/1086389074937532536/ADasdas.jpg',
     imageAlt: 'Twitter image alt'
   }}
 
