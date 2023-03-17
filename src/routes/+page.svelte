@@ -19,7 +19,7 @@
     description: 'A simple app to help you manifest your desires',
     images: [
       {
-        url: 'https://cdn.discordapp.com/attachments/1063591220028383252/1086389074937532536/ADasdas.jpg',
+        url: 'https://imgur.com/VmK3XI6',
         width: 800,
         height: 600,
         alt: 'manifest.me preview image'
@@ -32,7 +32,7 @@
     cardType: 'summary_large_image',
     title: 'Manifest.me',
     description: 'A simple app to help you manifest your desires',
-    image: 'https://cdn.discordapp.com/attachments/1063591220028383252/1086389074937532536/ADasdas.jpg',
+    image: 'https://imgur.com/VmK3XI6',
     imageAlt: 'Twitter image alt'
   }}
 
