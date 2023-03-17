@@ -13,6 +13,7 @@
   titleTemplate="%s | Svelte Meta Tags"
   description="A simple app to help you manifest your desires"
   openGraph={{
+    type: 'website',
     url: 'https://manifest-me.vercel.app/',
     title: 'Manifest.me',
     description: 'A simple app to help you manifest your desires',
