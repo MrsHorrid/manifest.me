@@ -1,5 +1,6 @@
 <script lang="ts">
     import AddManifest from "$lib/components/AddManifest.svelte";
+    import Seo from "$lib/components/Seo.svelte";
    
 </script>
 
@@ -8,3 +9,4 @@
     <AddManifest />
 </div>
 
+<Seo/>
