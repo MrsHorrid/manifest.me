@@ -38,12 +38,12 @@
 
 <div>
     {#if isEntered}
-        <div class="flex items-center gap-1 mt-[4rem]">
+        <div class="flex items-center gap-1 mt-[4rem]" transition:blur>
         <h1 class="font-bold text-[1.3rem] capitalize" transition:blur>Ready to be sent to the <span class="text-[#725AC1]">Universe</span></h1>
         <img {src} class="w-6" alt="">
         </div>
     {:else}
-        <div class="flex items-center gap-1 mt-[4rem]">
+        <div class="flex items-center gap-1 mt-[4rem]" transition:blur>
         <h1 class="font-bold text-[1.3rem] capitalize"  transition:blur>when youre ready to manifest type above <span class="text-[#725AC1]">and let the magic happen</span></h1>
         <img {src} class="w-6" alt="">
         </div>
