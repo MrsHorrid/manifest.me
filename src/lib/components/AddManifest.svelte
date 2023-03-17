@@ -37,12 +37,21 @@
 </div>
 
 <div>
-    <div class="flex items-center gap-1 mt-[4rem]">
-        <h1 class="font-bold text-[1.3rem]">Ready to be sent to the <span class="text-[#725AC1]">Universe</span></h1>
-        <img {src} class="w-6" alt="">
-    </div>
     {#if isEntered}
-        <button on:click= {releaseManifestation} class="bg-[#725AC1] p-3 rounded-md text-white font-semibold mt-4 hover:bg-[#281663] ease-in-out duration-700" >Release it all</button>
+        <div class="flex items-center gap-1 mt-[4rem]">
+        <h1 class="font-bold text-[1.3rem] capitalize" transition:blur>Ready to be sent to the <span class="text-[#725AC1]">Universe</span></h1>
+        <img {src} class="w-6" alt="">
+        </div>
+    {:else}
+        <div class="flex items-center gap-1 mt-[4rem]">
+        <h1 class="font-bold text-[1.3rem] capitalize"  transition:blur>when youre ready to manifest type above <span class="text-[#725AC1]">and let the magic happen</span></h1>
+        <img {src} class="w-6" alt="">
+        </div>
+    {/if}
+    
+    
+        {#if isEntered}
+        <button on:click= {releaseManifestation} class="bg-[#725AC1] p-3 rounded-md text-white font-semibold mt-4 hover:bg-[#281663] ease-in-out duration-700"  transition:blur>Release it all</button>
     {/if}
 
     <div  class="flex flex-col gap-6 mt-8">
